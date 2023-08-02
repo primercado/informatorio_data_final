@@ -20,17 +20,20 @@ Luego, los ubica en distintos CSV y los guarda en una determinada dirección de 
 ----
 * Lo primero que hay que hacer es instalar un entorno virtual, lo hacemos mediante:
 
+```
 python3 -m virtualenv venv
+```
 
 * Luego hay que ejecutar el entorno virtual, en linux lo hacemos mediante:
-
+```
 source venv/bin/activate                           
-
+```
 * Luego debemos instalar las librerías
-
+```
 sudo pip3 install requiriments.txt
-
+```
 * Luego ejecutar el archivo main.py mediante
-
+  
+```
 python3 main.py
-
+```
